@@ -1,0 +1,204 @@
+.estadisticas {
+    display: flex;
+    justify-content: space-between;
+    border-top-color: red;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    background: rebeccapurple;
+    box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    justify-self: center;
+}
+@media (max-width: 850px) {
+    .img-detalle-pokemon {
+        width: 425px;
+    }
+}
+
+@media (max-width: 768px) {
+    .vista-detallada {
+        flex-direction: column;
+    }
+    .divimagen {
+        align-self: center;
+    }
+    .card-body {
+        font-size: 0.9rem;
+    }
+    .card-title {
+        font-size: 2rem;
+    }
+    .divimagenItem {
+        align-self: center;
+    }
+    .img-detalle {
+        width: 250px;
+    }
+    .divimagenType {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .estadisticas {
+        display: flex;
+        justify-content: space-between;
+        border-top-color: red;
+        border: 3px solid red;
+        border-radius: 15px;
+        margin: 120px 40px 10px 40px;
+        padding: 15px 20px;
+        color: white;
+        background: rebeccapurple;
+        box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+        width: 90%;
+        justify-self: center;
+        flex-direction: column;
+    }
+    .estadisticas-type {
+        display: flex;
+        justify-content: space-between;
+        border-top-color: red;
+        border: 3px solid red;
+        border-radius: 15px;
+        margin: 120px 40px 10px 40px;
+        padding: 15px 20px;
+        color: white;
+        background: rebeccapurple;
+        box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+        width: 70%;
+        justify-self: center;
+        flex-direction: column;
+    }
+    
+    .estadisticas-pokemon {
+        display: flex;
+        justify-content: space-between;
+        border-top-color: red;
+        border: 3px solid red;
+        border-radius: 15px;
+        margin: 120px 40px 10px 40px;
+        padding: 15px 20px;
+        color: white;
+        background: rebeccapurple;
+        box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+        width: 60%;
+        justify-self: center;
+        flex-direction: column;
+    }
+    .card-body {
+        font-size: 0.9rem;
+    }
+    .card-title {
+        font-size: 2rem;
+    }
+    .img-detalle-type {
+        width: 150px;
+        height: 70px;
+    }
+}
+
+.scroll_list {
+    max-height: 290px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60vw;
+    max-height: 60vh;
+    margin: auto;
+    overflow: hidden;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+body {
+    background-image: url("https://img.freepik.com/vector-premium/arte-pop-comico-azul-fondo-moderno-semitono-puntos_544963-1614.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+.divimagen {
+    display: flex;
+    justify-content: center;
+
+}
+.divimagenItem {
+    display: flex;
+    justify-content: center;
+
+}
+.divimagenType {
+    display: flex;
+    justify-content: center;
+}
+.img-detalle-type {
+    width: 350px;
+    height: 100px;
+    align-self: center;
+}
+.container {
+    max-width: 1800px;
+}
+
+.contenedor {
+    margin-top: 60px;
+}
+
+.listadefavoritos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.estadisticas-type {
+    display: flex;
+    justify-content: space-between;
+    border-top-color: red;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    background: rebeccapurple;
+    box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    justify-self: center;
+}
+
+.estadisticas-pokemon {
+    display: flex;
+    justify-content: space-between;
+    border-top-color: red;
+    border: 3px solid red;
+    border-radius: 15px;
+    margin: 120px 40px 10px 40px;
+    padding: 15px 20px;
+    color: white;
+    background: rebeccapurple;
+    box-shadow: 12px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    justify-self: center;
+}
+
+.scroll_list_poke {
+    max-height: 190px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+.img-detalle-pokemon {
+    width: 495px;
+}
+

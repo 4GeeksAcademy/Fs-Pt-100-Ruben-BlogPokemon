@@ -1,0 +1,48 @@
+
+.fondoprincipal{
+    margin-top: 50px;
+    
+}
+.fondoListas {
+
+    display: flex;
+    overflow: auto;
+    gap: 7vh;
+    padding: 4vh;
+    white-space: nowrap;
+    margin-left: 5rem;
+}
+
+h1 {
+
+    color: rgb(255, 25, 0);
+    font-size: 65px;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 25px;
+}
+
+h2 {
+
+    font-family: 'Star Jedi', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #f1c40f;
+    /* Color dorado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(135deg, #000000, #434343);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #f1c40f;
+    margin: 20px;
+    position: relative;
+}
+.imagePoke {
+    width: 217px;
+    height: 80px;
+}
+
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */

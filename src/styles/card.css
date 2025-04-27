@@ -1,0 +1,44 @@
+.cards {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1a1a1a; 
+    border-radius: 20px; 
+    border-radius: 10px;
+    border: 3px solid #f10f0f;
+    flex: 0 0 calc((100% - (3 * 7vh)) / 4);
+    box-shadow: 0 16px 22px rgba(246, 74, 74, 0.717); 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+}
+
+.moreAndFav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+
+.btnN {
+    height: 80%;
+}
+
+.card-img-top {
+    object-fit: cover; 
+
+}
+
+.card-title {
+    color: rgb(213, 61, 15);
+}
+
+.card-ball {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1a1a1a; 
+    border-radius: 20px; 
+    border-radius: 10px;
+    border: 3px solid #f10f0f;
+    flex: 0 0 calc((100% - (5 * 7vh)) / 6);
+    box-shadow: 0 16px 22px rgba(246, 74, 74, 0.717); 
+
+}
+
